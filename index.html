@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng Sinh Nhật</title>
+    <link rel="stylesheet" href="hpbd.css">
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop class="video-background">
+        <source src="video/8015192-hd_1920_1080_25fps.mp4" type="video/mp4">
+    </video>
+
+    <!-- Main Container -->
+    <div class="container">
+        <div class="content">
+            <!-- Title -->
+            <div class="title-section">
+                <h2 class="selection-title">✨ Em chọn 1 trong 3 ik ✨</h2>
+            </div>
+
+            <!-- Gift Items Container -->
+            <div class="gifts-container">
+                <!-- Gift 1 -->
+                <div class="gift-item" data-gift="1">
+                    <div class="gift-icon">🎁</div>
+                </div>
+
+                <!-- Gift 2 -->
+                <div class="gift-item" data-gift="2">
+                    <div class="gift-icon">🎀</div>
+                </div>
+
+                <!-- Gift 3 -->
+                <div class="gift-item" data-gift="3">
+                    <div class="gift-icon">🎉</div>
+                </div>
+            </div>
+
+            <!-- Message Container (Hidden initially) -->
+            <div class="message-container" id="messageContainer">
+                <div class="message-content">
+                    <h1 class="greeting-title">🎉 Chúc Mừng Sinh Nhật! 🎉</h1>
+                    <div id="messageText"></div>
+                    <button class="reset-button" id="resetButton">Muốn chọn lại thị bấm vào đây</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="hpbd-js.js"></script>
+</body>
+</html>
